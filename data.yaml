@@ -1,13 +1,7 @@
-train: ../train/images
-val: ../valid/images
-test: ../test/images
+train: /home/aditya/aditya-work/far_west_6_set/train/images
+val: /home/aditya/aditya-work/far_west_6_set/valid/images
+test: /home/aditya/aditya-work/far_west_6_set/test/images
 
 nc: 4
 names: ['can', 'milk_jug', 'non_white_jug', 'plastic_bottle']
 
-roboflow:
-  workspace: derick-john-uivii
-  project: waste-temporary
-  version: 1
-  license: CC BY 4.0
-  url: https://universe.roboflow.com/derick-john-uivii/waste-temporary/dataset/1
